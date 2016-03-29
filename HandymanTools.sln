@@ -22,8 +22,6 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HandymanTools.Common", "Han
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HandymanTools.Infrastructure", "HandymanTools.Infrastructure\HandymanTools.Infrastructure.csproj", "{487EEC1B-C938-430C-8873-6E2A8096A7FD}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HandymanTools.HashAndSalt", "HandymanTools.HashAndSalt\HandymanTools.HashAndSalt.csproj", "{0CAD9729-6433-4AD9-8DD4-E8A9C2A23AAB}"
-EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -46,10 +44,6 @@ Global
 		{487EEC1B-C938-430C-8873-6E2A8096A7FD}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{487EEC1B-C938-430C-8873-6E2A8096A7FD}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{487EEC1B-C938-430C-8873-6E2A8096A7FD}.Release|Any CPU.Build.0 = Release|Any CPU
-		{0CAD9729-6433-4AD9-8DD4-E8A9C2A23AAB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{0CAD9729-6433-4AD9-8DD4-E8A9C2A23AAB}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{0CAD9729-6433-4AD9-8DD4-E8A9C2A23AAB}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{0CAD9729-6433-4AD9-8DD4-E8A9C2A23AAB}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

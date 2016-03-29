@@ -115,12 +115,6 @@
     <Reference Include="Newtonsoft.Json">
       <HintPath>..\packages\Newtonsoft.Json.6.0.4\lib\net45\Newtonsoft.Json.dll</HintPath>
     </Reference>
-    <Reference Include="EntityFramework">
-      <HintPath>..\packages\EntityFramework.6.1.3\lib\net45\EntityFramework.dll</HintPath>
-    </Reference>
-    <Reference Include="EntityFramework.SqlServer">
-      <HintPath>..\packages\EntityFramework.6.1.3\lib\net45\EntityFramework.SqlServer.dll</HintPath>
-    </Reference>
     <Reference Include="Microsoft.AspNet.Identity.Core">
       <HintPath>..\packages\Microsoft.AspNet.Identity.Core.2.2.1\lib\net45\Microsoft.AspNet.Identity.Core.dll</HintPath>
     </Reference>
@@ -264,10 +258,6 @@
     <ProjectReference Include="..\HandymanTools.Common\HandymanTools.Common.csproj">
       <Project>{2f0376da-2d10-4e21-8da8-c13f91ba8223}</Project>
       <Name>HandymanTools.Common</Name>
-    </ProjectReference>
-    <ProjectReference Include="..\HandymanTools.HashAndSalt\HandymanTools.HashAndSalt.csproj">
-      <Project>{0cad9729-6433-4ad9-8dd4-e8a9c2a23aab}</Project>
-      <Name>HandymanTools.HashAndSalt</Name>
     </ProjectReference>
     <ProjectReference Include="..\HandymanTools.Infrastructure\HandymanTools.Infrastructure.csproj">
       <Project>{487eec1b-c938-430c-8873-6e2a8096a7fd}</Project>
