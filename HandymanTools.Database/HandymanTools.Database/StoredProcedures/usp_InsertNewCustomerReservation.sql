@@ -1,6 +1,6 @@
 ﻿CREATE PROCEDURE [dbo].[usp_InsertNewCustomerReservation]
 	@ReservationNumber int OUTPUT,
-	@CustomerId int,
+	@CustomerId varchar(36),
 	@StartDate Date,
 	@EndDate Date,
 	@ToolList varchar(MAX)
