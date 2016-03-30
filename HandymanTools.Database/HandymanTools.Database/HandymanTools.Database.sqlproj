@@ -60,6 +60,7 @@
     <Folder Include="Tables" />
     <Folder Include="StoredProcedures" />
     <Folder Include="Functions" />
+    <Folder Include="Triggers" />
   </ItemGroup>
   <ItemGroup>
     <Build Include="Tables\Clerk.sql" />
@@ -72,7 +73,7 @@
     <Build Include="Tables\PowerToolAccessory.sql" />
     <Build Include="StoredProcedures\usp_GetPasswordByUserName.sql" />
     <Build Include="StoredProcedures\usp_InsertNewCustomerProfile.sql" />
-    <Build Include="StoredProcedures\usp_GetCustomerByCustomerId.sql" />
+    <Build Include="StoredProcedures\usp_GetCustomerByCustomerName.sql" />
     <Build Include="StoredProcedures\usp_GetReservationsByCustomerId.sql" />
     <Build Include="StoredProcedures\usp_InsertNewCustomerReservation.sql" />
     <Build Include="Functions\fn_SplitStrings.sql" />
